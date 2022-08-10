@@ -1,0 +1,545 @@
+body{
+    margin: 50px;
+}
+
+
+
+nav {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+  }
+
+
+.nav-links{
+   display: flex;
+   list-style: none;
+  }
+
+.nav-item a{
+    display: inline-block;
+    padding: 18px 15px;
+    text-decoration: none;
+    color: rgb(30, 19, 82);
+    font-family: Montserrat;
+}
+
+.nav-item a:hover{
+    border-bottom: 3px solid #D36440;
+    text-underline-offset: 2px;
+
+}
+
+nav .nav-links {
+    align-self: left;
+}
+
+nav image {
+    align-self: center;
+}
+
+input{
+    all: unset;
+    font: 16px Montserrat;
+    height: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder{
+    color: black;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+form{
+    align-items: center;
+}
+
+.jumbotron {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+      align-items: center;
+      justify-content: center;
+      height:100%;
+  }
+
+.jumbotron h1{
+    font-family: Montserrat;
+    font-size: 55px;
+    color: #D36440;
+}
+
+.jumboimg{
+    grid-column: 2;
+    height: 60vh;
+    width: 676px;
+
+}
+
+#jumbop{
+    color:#D36440;
+    font-weight: 600;
+}
+
+#hero {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 70vh;
+}
+
+.card1 img{
+height: 300px
+}
+
+.cardimg{
+    width: 600pxx;
+}
+div h2{
+    font-size: 30x;
+    align-items: center;
+}
+
+.card1 {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.maincontent{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    grid-row-gap: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header1{
+    height: 60px;
+    margin: 20px 20px 0px 0px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    justify-content: left;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h5{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hr2{
+border-top: 5px solid rgb(110, 3, 3);
+width: 600px;
+}
+
+#main{
+    display: inline;
+}
+
+.cardtext1{
+    font-family: Montserrat;
+    grid-column: 2;
+    text-align: left;
+}
+
+.card1H{
+    font-size: 25px;
+    font-family: Montserrat;
+    color: #D36440;
+}
+
+
+.cardtext2{
+    font-family: Montserrat;
+    grid-column: 1;
+    text-align: left;
+    padding-left: 30px;
+
+}
+
+.card2H{
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+
+.card2 {
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    background-color: #D36440;
+    color: white;
+
+}
+
+
+.cardtext3{
+    font-family: Montserrat;
+
+}
+
+.card3H{
+    font-size: 25px;
+    font-family: Montserrat;
+    color: #D36440;
+}
+
+
+.card3 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card3 img{
+    height: 100%;
+
+}
+
+.card2 img{
+    height: 300px;
+    grid-column: 2;
+}
+
+p{
+    font-family: montserrat;
+    font-size: 20px;
+}
+
+.cardtext4{
+    font-family: Montserrat;
+    grid-column: 1;
+    text-align: left;
+}
+
+.card4H{
+    font-size: 25px;
+    font-family: Montserrat;
+    color: #D36440;
+}
+
+
+.card4 {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card4 img{
+    height: 400px;
+
+}
+
+.cardimage4{
+    width: 400px;
+}
+
+.cardtext5{
+    font-family: Montserrat;
+    grid-column: 2;
+}
+
+.card5H{
+    font-size: 25px;
+    font-family: Montserrat;
+    color:#D36440
+}
+
+
+.card5 {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card5 img{
+    height: 900px;
+    grid-column: 1;
+
+}
+
+.cardtext6{
+    font-family: Montserrat;
+    grid-column: 1;
+}
+
+.card6H{
+    font-size: 25px;
+ font-family: Montserrat;
+    color: 093271;
+}
+
+
+.card6 {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card6 img{
+    height: 300px;
+    grid-column: 2;
+
+}
+
+.footdiv img{
+    height: 140px;
+    width: 140px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.footlinks{
+    display: block;
+    color: white;
+}
+.footlinks a{
+    color: white;
+    font-weight: 400;
+}
+
+.footnav-links li{
+    list-style: none;
+  
+}
+
+.footdiv{
+    background-color: 093271;
+    
+}
+
+.jumbotron2{
+    display: block;
+    height: 90vh;
+    width: 100%;
+}
+
+.tipspic img{
+    width: 100%;
+    height: 70vh;
+}
+
+#hero2{
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#tip{
+    padding: 50px;
+}
+
+.tipshead{
+    background-color: 093271;
+    color: white;
+    height: 150px;
+    align-items: center;
+}
+
+.tips-header{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+ 
+
+}
+
+.tipsheadtxt{
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+
+.tipsmain{
+    display: grid;
+    grid-template-rows: 1fr 1.5fr 3fr;
+}
+
+.card7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+    padding-top: 40px;
+}
+.card7H{
+    font-family: montserrat;
+    font-weight: bold;
+    color: 093271;
+}
+
+.cardtext7-1{
+    padding-top: 50px;
+}
+
+.cardtext7-2{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.card8{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    height: 300px;
+    justify-content: center;
+}
+
+.card8H{
+    font-family: montserrat;
+    font-weight: bold;
+    color:093271 ;
+}
+
+.cardtext8-1{
+    padding-top: 130px
+}
+
+.card8img img{
+    height: 500px;
+    padding-left: 150px;
+}
+
+.cardtext8-1{
+    justify-content: center;
+}
+.boldtxt{
+    font-family: montserrat;
+    font-weight: bold;
+    color: 093271;
+}
+
+.card9{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cardtext9-1{
+    color: white;
+    font-family: Montserrat;
+    text-align: center;
+    background-color: 093271;
+    height: 1120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardtext9-2{
+    line-height: 1.5;
+    padding-left: 15px;
+}
+
+.txt9{
+    padding-top: 510px;
+}
+
+.jumbotron3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     align-items: center;
+     justify-content: center;
+     height:100%;
+ }
+
+ .jumbotxt3{
+    font-family: montserrat;
+    font-size: 55px;
+    color: 093271;
+ }
+#related{
+    display: inline;
+}
+.relatedmain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: 093271;
+    align-items: center;
+    height: 900px;
+}
+.card-related1{
+    height: 400px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding-top: 40px;
+    border-radius: 15px;
+    margin-left: 150px;
+}
+ .cardp{
+    font-size: 14px;
+    
+ }
+
+
+
+ h11{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+ }
+
+ #learnmore{
+    font-family: montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #D36440;
+    color: white;
+    font-weight: 600px;
+    width: 80px;
+    border-radius: 10px;
+margin-top: 30px;
+
+ }
+
+ #learnmore:hover{
+    background-color: #7b45d3;
+ }
+
+ .card-related2{
+    height: 400px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding-top: 40px;
+    border-radius: 15px;
+    margin-left: 150px;
+}
